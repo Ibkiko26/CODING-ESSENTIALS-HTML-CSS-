@@ -1,7 +1,12 @@
-style: body {
-    background-image: url('Images/Bg IMG.jpg');
+body {
+    /* dark overlay over background image */
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('Images/Bg IMG.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('Images/Bg IMG.jpg');
+}
+
+h3 {
+    color: white;
+    text-align: center;
 }

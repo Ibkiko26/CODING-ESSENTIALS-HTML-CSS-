@@ -1,0 +1,11 @@
+@media (max-width: 950px) {
+    body {
+        font-size: 1rem;
+    }
+
+    /* Only include this if you add a <div class="hero"> to your HTML */
+    .hero {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}

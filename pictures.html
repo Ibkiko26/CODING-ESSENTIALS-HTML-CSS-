@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Images</title>
+        <link rel="stylesheet" href="pictures.css">
     <body>
-    
+    <div class="container">
+        <h1>Responsive Images</h1>
+        <p>Using the picture element to load different images based on the viewport size.</p>
+
+    </div>
+    </head>
+        
     <h2>The Picture Element</h2>
     
     <picture>
-        <source media="(min-width: 650px)" 
-    srcset="Images/clean_glasses.png">
-        <source media="(min-width: 465px)"
-    srcset="Images/bg_img.jpg">
-        <img src="Images/lethal_on_code.png" alt="Person Cleaning Glasses" style="width:auto;">
-    </picture>
+  <!-- If screen is 950px or wider, use got-img1.png (which is physically 1200px wide) -->
+  <source media="(min-width: 950px)" srcset="images/got-img1.png 1200w">
 
-    <p>Resize the browser to see different versions of the picture loading at different viewport sizes.
-The browser looks for the first source element where the media query matches the user's current viewport width,
-and fetches the image specified in the srcset attribute.</p>
+  <!-- If screen is 750px or wider, use got-img2.png (which is physically 800px wide) -->
+  <source media="(min-width: 750px)" srcset="images/got-img2.png 800w">
+
+  <!-- Default fallback for screens smaller than 750px -->
+  <img src="images/got-img3.png" alt="Jon Snow facing a dragon">
+</picture>
+
+    <p>The Game of thrones images are in different sizes for optimal display on various devices.</p>
 
 <p>The img element is required as the last child tag of the picture declaration block.
 The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.

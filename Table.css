@@ -1,22 +1,40 @@
-.table{
-    border: 1px solid black;
-    border-style: dotted;
+table {
     border-collapse: collapse;
-    width: 100%;
-    text-align: center;
-    background-color: black;
-    
 }
 
-td{
-    background-color: lightgray;
+table, th, td {
     border: 1px solid black;
-    width: 100px;
 }
 
-th{
+th, td {
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+
+td {
+    background-color: lightgray;
+}
+
+th {
     background-color: lightblue;
     font-weight: bolder;
-    border: 1px solid black;
-    width: 100px;
+}
+
+.spaced-table {
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+.employee-table tr:nth-child(even) th,
+.employee-table tr:nth-child(even) td {
+    background-color: #D6EEEE;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #D6EEEE;
+}
+
+.student-table td:nth-child(even), .student-table th:nth-child(even) {
+  background-color: #D6EEEE;
 }

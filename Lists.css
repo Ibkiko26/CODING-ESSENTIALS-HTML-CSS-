@@ -1,0 +1,20 @@
+.teq {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+.teq li {
+    float: left;
+}
+.teq li a {
+    display: block;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.teq li a:hover {
+    background-color: #daa;
+}

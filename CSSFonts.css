@@ -1,39 +1,23 @@
-body{
-    background-color: #f0f0f0;
-    font-family: Arial, Open-Sans;
-    margin: 0;
-    padding: 20px;
+@font-face {
+    font-family: 'Courier New';
+    src: url("D:\MY DEV HUB\Learning-Progress\Fonts\Roboto\Roboto-Italic-VariableFont_wdth,wght.ttf");
+    font-family: "Roboto-Italic-VariableFont_wdth,wght";
 }
+@font-face {
+    font-family: 'Courier New';
+    src: url("D:\MY DEV HUB\Learning-Progress\Fonts\Roboto\Roboto-VariableFont_wdth,wght.ttf");
+    font-family: "Roboto";
+}
+
 h1{
-    color: #ea08ff;
-    font-size: 36px;
-    border-style: solid, filled;
-    border: 2px solid #1b382e;
-    border-radius: 10px;
-    background-color: #1b382e;
-    font-style: bold;
-    text-align: center;
-    margin-bottom: 20px;
+    font-family: "Roboto-VariableFont_wdth,wght";
 }
-p1{
+p{
+    font-family: "Roboto-VariableFont_wdth,wght", "Arial", "Helvetica", "Courier New";  
     color: #ff6347;
     font-size: 22px;
-    font-style: italic ;
-    font-weight: bold;
+    font-style: italic;
+    font-weight: normal;
     text-align: center;
     margin-bottom: 15px;
-}
-p2{
-    color: #4b0082;
-    font-size: 22px;
-    font-style: italic ;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 15px;
-}
-h2{
-    color: #fa070f;
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 20px;
 }

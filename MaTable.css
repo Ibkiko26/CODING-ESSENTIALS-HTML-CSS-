@@ -1,0 +1,48 @@
+.table1 {
+    border-collapse: collapse;
+}
+
+.table1 th,
+.table1 td {
+    border: 1px solid black;
+}
+
+.table1 tr:nth-child(even) td {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+.table2 {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+}
+
+.table2 tr:hover {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+.table2 td {
+    border-bottom: 1px solid #ddd;
+}
+
+.table3 {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+}
+
+.table3 {
+    th {
+        background-color: #4CAF50;
+        color: white;
+        border: 1px solid black;
+        border-style: double;
+    }
+    td {
+        border: 1px solid black;
+        text-align: center;
+        border-style: double;
+    }
+}

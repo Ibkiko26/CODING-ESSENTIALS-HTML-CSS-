@@ -95,3 +95,27 @@
 .clear-floats {
     clear: both;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+}
+
+#Canada {
+    width: 100%;
+    background-color: rgb(177, 105, 105);
+    padding: 10px;
+}
+
+#Mexico {
+    width: 100%;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+#Chile {
+    width: 100%;
+    background-color: rgb(87, 87, 180);
+    padding: 10px;
+}

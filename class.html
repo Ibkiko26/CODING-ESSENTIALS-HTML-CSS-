@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Example</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+<body>
+    <div class="city">
+        <h2>London</h2>
+        <p>London is the capital of England and the United Kingdom.</p>
+    </div>
+
+    <div class="city">
+        <h2>Paris</h2>
+        <p>Paris is the capital of France.</p>
+    </div>
+
+    <div class="city">
+        <h2>New York</h2>
+        <p>New York City is the largest city in the United States.</p>
+    </div>
+<hr>
+    
+    <h1>My <span class="note">Important</span> Heading</h1>
+    <p>This is some<span class="note"> important</span> text.</p>
+    
+    <h2 class="continent">Europe</h2>
+    <p>Europe is a continent located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere.</p>
+
+    <h2 class="continent">Asia</h2>
+    <p>Asia is the largest continent on Earth, covering an area of 44,579,000 square kilometers.</p>
+
+    <h2 class="continent">Africa</h2>
+    <p>Africa is the second largest continent on Earth, covering an area of 30,370,000 square kilometers.</p>
+
+    <h2>Multiple Classes</h2>
+    <p>Here, all the three h2 elements belong to the "Rivers" class. In addition, the "main" class is applied to the first h2 element, which centeraligns the text.</p>
+
+    <h2 class="rivers main">River Thames</h2>
+    <h2 class="rivers">River Seine</h2>
+    <h2 class="rivers">River Nile</h2>
+
+    <h2>Use of The Class Attribute in Javascript</h2>
+    <p>Click the button to hide all elements with the "rivers" class:</p>
+    <button onclick="myFunction()">Hide Rivers</button>
+
+    <h2 class="rivers">River Amazon</h2>
+    <p>River Amazon is the longest river in the world.</p>
+
+    <h2 class="rivers">River Yangtze</h2>
+    <p>River Yangtze is the longest river in Asia.</p>
+
+    <h2 class="rivers">River Mississippi</h2>
+    <p>River Mississippi is the second longest river in North America.</p>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("rivers");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

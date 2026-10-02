@@ -1,0 +1,32 @@
+.city {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.note {
+    color: tomato;
+    font-size: 120%;
+    color: red;
+}
+
+.continent {
+    background-color: Tomato;
+    color: rgb(234, 234, 238);
+    padding: 10px;
+}
+
+.rivers {
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+}
+
+.main {
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    padding: 10px;
+}

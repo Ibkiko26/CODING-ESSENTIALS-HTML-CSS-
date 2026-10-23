@@ -12,5 +12,18 @@
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>
         <button type="button" disabled>Disabled Button</button>
+        <button type="button" style="background-color:lightblue;border:2px solid black;border-radius:10px;">Button with Style</button>
+    <br>
+        <p>The submit button sends the form data to the server, and the reset button clears the form field (try to type your first name and press Reset Form).</p>
+
+        <form action="submit.html" method="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Reset Form">
+    <br>
+        </form>
     </body>
 </html>

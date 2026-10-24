@@ -1,6 +1,6 @@
 div{
     background-color: rgb(255, 2, 2);
-    visibility: hidden;
+    visibility: none;
     width: 100px;
     height: 100px;
     display: inline-block;

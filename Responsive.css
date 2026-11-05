@@ -17,9 +17,13 @@
 
 .main {
     float: left;
-    width: 60%;
+    width: 33.333%;
     padding: 0 20px;
-    overflow: hidden;
+}
+
+.main img {
+    max-width: 100%;
+    height: auto;
 }
 
 .right {
@@ -33,7 +37,7 @@
 @media screen and (max-width:800px) {
     /* For tablets: */
     .main {
-        width: 80%;
+        width: 100%;
         padding: 0;
     }
     .right {
@@ -55,4 +59,8 @@
 .article {
     background-color: aqua;
     color: black;
+}
+
+.main:last-of-type {
+    margin-top: 16px;
 }
